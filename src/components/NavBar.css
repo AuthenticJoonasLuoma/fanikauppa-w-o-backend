@@ -1,0 +1,31 @@
+.header {
+    height: 50rem;
+    background-image: url("https://images.pexels.com/photos/2257475/pexels-photo-2257475.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    background-position: center;
+}
+
+.header h1 {
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 10rem;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 5rem 10rem;
+}
+
+.header p {
+    position: absolute;
+    color: #fff;
+    top: 63%;
+    left: 50%;
+    transform: translate(-70%, -50%);
+
+    font-size: 2.5rem;
+}

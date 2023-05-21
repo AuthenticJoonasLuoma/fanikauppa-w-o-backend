@@ -1,0 +1,67 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Fender Telecaster",
+      "type": "Guitar",
+      "price": 800,
+      "description": "Komea ja perinteinen Fenderin keppi!",
+      "amount": 0,
+      "image": "https://images.unsplash.com/photo-1654957569311-42a28d1cbc6b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjR8fHRlbGVjYXN0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 2,
+      "name": "Gibson Les Paul",
+      "type": "Guitar",
+      "price": 900,
+      "description": "Slashin lelu! Pirun painava ja hihnan kanssa vaatii hyvin treenatut epäkkäät, muuten soiva peli.",
+      "amount": 0,
+      "image": "https://images.unsplash.com/photo-1516924962500-2b4b3b99ea02?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGVzJTIwcGF1bHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 3,
+      "name": "Warwick RB",
+      "type": "Bass",
+      "price": 1100,
+      "description": "Heviä? Kyllä. Jos on liitua millä piirtää, osta tämä. Ei punkkareille eikä osamaksulla!",
+      "amount": 0,
+      "image": "https://images.unsplash.com/photo-1608137823515-ba2813ea368f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+    },
+    {
+      "id": 4,
+      "name": "Ibanez SR320",
+      "type": "Bass",
+      "price": 300,
+      "description": "Jos olet tuttiritari ja aloitteleva basisti, tästä treenikappale.",
+      "amount": 0,
+      "image": "https://images.unsplash.com/photo-1618530089935-3030738b8c7b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+      "id": 5,
+      "name": "Akai MPK mini",
+      "type": "Keyboard",
+      "price": 100,
+      "description": "Tykkäätkö Teknosta vai oletko kenties 'kotiräppäri'? No, tällä saa biitit molempiin. Ei iltanuotioille, tarvitsee virtaa.",
+      "amount": 0,
+      "image": "https://images.unsplash.com/photo-1609266107537-5808f19cd039?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80"
+    },
+    {
+      "id": 6,
+      "name": "Kitarahihna",
+      "type": "Accessory",
+      "price": 25,
+      "description": "Löytyykö Les Paul? - Salin kautta kassalle. Muille 25€",
+      "amount": 0,
+      "image": "https://images.unsplash.com/photo-1599302863963-5da550e24adf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Z3VpdGFyJTIwc3RyYXB8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 7,
+      "name": "Taylor kantopussi",
+      "type": "Accessory",
+      "price": 150,
+      "description": "Jos on joku nolo soitin, sen saa tänne piiloon. Laadukas on, osta pois.",
+      "amount": 0,
+      "image": "https://images.unsplash.com/photo-1552028650-1056e04d2e6d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3VpdGFyJTIwY2FzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+    }
+  ]
+}
