@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import ProductInCart from './ProductInCart';
+import './ShoppingCartItem.css';
 
 
 function ShoppingCart({ products, resetAmounts }) {
@@ -30,7 +31,7 @@ function ShoppingCart({ products, resetAmounts }) {
     return (
         <div className="cart-container">
             <h2>Ostoskori</h2>
-            <div>
+            <div className="shoppingCartItem">
                 {productsInCart}
             </div>
             <div>{total} €</div>
