@@ -33,7 +33,7 @@
       "type": "Bass",
       "price": 300,
       "description": "Jos olet tuttiritari ja aloitteleva basisti, tästä treenikappale.",
-      "amount": 0,
+      "amount": 1,
       "image": "https://images.unsplash.com/photo-1618530089935-3030738b8c7b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
     },
     {
@@ -51,7 +51,7 @@
       "type": "Accessory",
       "price": 25,
       "description": "Löytyykö Les Paul? - Salin kautta kassalle. Muille 25€",
-      "amount": 0,
+      "amount": 1,
       "image": "https://images.unsplash.com/photo-1599302863963-5da550e24adf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Z3VpdGFyJTIwc3RyYXB8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
     },
     {
@@ -60,7 +60,7 @@
       "type": "Accessory",
       "price": 150,
       "description": "Jos on joku nolo soitin, sen saa tänne piiloon. Laadukas on, osta pois.",
-      "amount": 0,
+      "amount": 1,
       "image": "https://images.unsplash.com/photo-1552028650-1056e04d2e6d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3VpdGFyJTIwY2FzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
     }
   ]
