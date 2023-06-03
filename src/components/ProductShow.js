@@ -1,4 +1,4 @@
-import './ProductShow.css';
+import './styles/ProductShow.css';
 import { useState } from "react";
 
 function ProductShow({ product, increaseAmount }) {
@@ -25,16 +25,16 @@ function ProductShow({ product, increaseAmount }) {
 
     return (
         <div className='product-card'>
-            <h3>{product.name}</h3>
+            <h3 className='product-name'>{product.name}</h3>
             <img onClick={handleInfoClick} alt="soitin" src={product.image} />
-            {showInfo && <div>{product.description}</div>}
-            <button onClick={handleAddToShoppingCart}>Lisää Ostoskoriin</button>
+            <button className='add-to-basket-button' onClick={handleAddToShoppingCart}>Lisää Ostoskoriin</button>
             <div>
-                <button onClick={handleIncreaseAmountClick}>+</button>
-                {amount > 1 && <button onClick={handleDecreaseAmountClick}>-</button>}
-                {amount > 1 && <div>{amount}</div>}
+                <button className='add-button' onClick={handleIncreaseAmountClick}>+</button>
+                <button disabled={amount < 2} className='dec-button' onClick={handleDecreaseAmountClick}>-</button>
+                {amount > 1 && <div className='amount'>{amount}</div>}
             </div>
-            <h2>{product.price} €</h2>
+            <span className='product-price'>{product.price} €</span>
+            {showInfo && <div className='product-description'>{product.description}</div>}
         </div>
     );
 };

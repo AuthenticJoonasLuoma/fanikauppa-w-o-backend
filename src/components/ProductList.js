@@ -1,4 +1,4 @@
-import './ProductList.css';
+import './styles/ProductList.css';
 import ProductShow from "./ProductShow";
 
 function ProductList({ products, increaseAmount }) {
@@ -6,7 +6,12 @@ function ProductList({ products, increaseAmount }) {
         return <ProductShow key={product.id} product={product} increaseAmount={increaseAmount} />
     })
 
-    return <div className='list-container'>{renderedProducts}</div>
+    return (
+        <div className='products-container'>
+            <h2 className='product-header'>Tuotteet</h2>
+            <div className='list-container'>{renderedProducts}</div>
+        </div>
+    )
 };
 
 export default ProductList;

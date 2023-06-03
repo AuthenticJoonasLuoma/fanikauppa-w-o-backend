@@ -50,10 +50,12 @@ function App() {
 
 
     return (
-        <div>
+        <div id="root">
             <NavBar />
-            <ProductList products={products} increaseAmount={increaseAmount} />
-            <ShoppingCart products={products} resetAmounts={resetAmounts} />
+            <div className="content">
+                <ProductList products={products} increaseAmount={increaseAmount} />
+                <ShoppingCart products={products} resetAmounts={resetAmounts} />
+            </div>
             <PageFooter />
         </div>
     )

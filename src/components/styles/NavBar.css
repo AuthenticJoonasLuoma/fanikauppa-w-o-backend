@@ -6,6 +6,8 @@
     position: relative;
 
     background-position: center;
+    margin-bottom: 8rem;
+    border-bottom: solid 3px black;
 }
 
 .header h1 {
@@ -23,7 +25,7 @@
 .header p {
     position: absolute;
     color: #fff;
-    top: 63%;
+    top: 70%;
     left: 50%;
     transform: translate(-70%, -50%);
 

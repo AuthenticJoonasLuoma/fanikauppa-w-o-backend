@@ -1,13 +1,10 @@
 import { useEffect, useState } from "react";
 import ProductInCart from './ProductInCart';
-import './ShoppingCartItem.css';
-import OrderModal from "./OrderModal";
+import './styles/ShoppingCartItem.css';
 
 
 function ShoppingCart({ products, resetAmounts }) {
     const [total, setTotal] = useState(0);
-
-    const [openModal, setOpenModal] = useState(false);
 
     useEffect(() => {
         const newTotal = products.reduce((acc, product) => {
@@ -31,7 +28,7 @@ function ShoppingCart({ products, resetAmounts }) {
         resetAmounts();
     }
 
-    const isCartEmpty = total === 0;
+
 
     return (
         <div className="cart-container">
@@ -42,8 +39,7 @@ function ShoppingCart({ products, resetAmounts }) {
             <div>{total} €</div>
             <div>
                 <button onClick={handleResetAmountClick}>Tyhjennä Ostoskori</button>
-                <button className="order-modal-btn" onClick={() => setOpenModal(true)} disabled={isCartEmpty}>Vahvista tilaus</button>
-                <OrderModal open={openModal} onClose={() => setOpenModal(false)} productsInCart={productsInCart} />
+                <button>Vahvista tilaus</button>
             </div>
         </div>
     );
